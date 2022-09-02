@@ -1,8 +1,9 @@
 # Portoflio-Page
+My little journey, I had a lot of fun here, enjoy your time reading!!
 
 ## Greeting
 
-Welcome to my portfolio page, my name is Vuong, and please allow me to show you around
+Welcome to my portfolio page, my name is Vuong, please allow me to show you around
 
 I made this website with the intention to develop it overtime as my skills growth, it included 4 pages with each of them being carefully picked and designed by me, choosing the best design is a big confusion to me at first but it worked out in the end
 
