@@ -1,0 +1,426 @@
+:root {
+    --background: #202024;
+    --main-grey: rgba(17, 17, 17, 0.9);
+    --secondary-grey: rgba(17, 17, 17, 0.9);
+    --light-grey: #3c3c44;
+    --gold: #965f33;
+    --offWhite: #e6e6e6;
+    --hover: rgba(255, 255, 255, 0.25);
+  }
+body{/*"D:\pexels-negative-space-48606.jpg"*/
+    background-image: url("pexels-negative-space-48606.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer{
+    /*margin-left:92%;*/
+    position:fixed;
+    bottom:0;
+    right:10px;
+    background-color: rgba(255, 166, 0, 0.701);
+    color: aliceblue;
+    padding: 1px;
+    border: 1.7px solid rgb(216, 215, 215);
+    border-radius: 5px;
+}
+
+#Headerbar{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+    margin-inline: 500px;
+    height: 50px;
+}
+/*burger*/
+.burger {
+  display: none;
+}
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: var(--offWhite);
+  margin: 5px;
+  transition: all 0.4s ease;
+}
+.pdfsource{
+  display:flex;
+  padding-left:25%;
+  justify-content: left;
+  width: 50%;
+  height:600px;
+}
+#Greeting{
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    color: rgba(245, 245, 245, 0.842);
+
+}
+#Middlesectionbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /*margin-top: 4.6em;*/
+}
+.blockingbar{
+    height:43px;
+    margin-inline:5em;
+    border-bottom:2px solid grey;
+}
+.blur{
+    position:absolute;
+    bottom:0;
+    top: 100px;
+    left:0;
+    right:0;
+    z-index:-1;
+    backdrop-filter: blur(8px);
+}
+.weirdmeout{
+    cursor:pointer;
+    font-size:large;
+    padding:0.5em;
+    margin-inline:8px;
+    border: 1.7px solid rgb(216, 215, 215);
+    border-radius: 70%;
+}
+.weirdmeout:hover{
+    transform: scale(130%);
+    background-color: aliceblue;
+}
+#Instagramgo:hover{
+    color:rgba(0, 0, 0, 0.806);
+}
+#Githubgo{   
+    color: rgb(110, 84, 148);
+}
+#Instagramgo{
+    color: rgba(255, 255, 255, 0.833);/*54, 54, 253, 0.548*/
+    padding:13px;
+    height: 13px;
+}
+#Linkedingo{
+    color: rgb(0, 127, 178);
+}
+#space{
+    margin:1.5em;
+}
+.start{
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+}
+a:focus{
+    outline:none;
+}
+.Starter{
+    cursor: pointer;
+    color: rgba(245, 245, 245, 0.842);
+    font-size:110% ;
+    transform:scale(1,1.4);
+    margin-inline: 20px;
+    outline:none;
+}
+.Starter:hover{
+    transform: scale(130%);
+}
+#toProject{
+    display:flex;
+    padding-top:2.5em;
+    justify-content: center;
+}
+.AtProject{
+    color: rgba(245, 245, 245, 0.842);
+    border: 1.7px solid rgb(216, 215, 215);
+    border-radius:5px;
+    padding:3px;
+    margin:8px
+}
+.AtProject:hover{
+    background-color: grey;
+    transform: scale(120%);
+    transition: ease-out 0.2s;
+}
+.footlink{
+    color: rgba(245, 245, 245, 0.842);
+}
+
+#ThisHome, #ThisResume, #ThisProject, #ThisAbout{
+    color: rgba(47, 195, 215, 0.854);
+    transform:scale(1.4);
+    border-bottom: 2.25px solid rgba(47, 195, 215, 0.854);
+}
+
+/*Work box section(Projects)*/
+.btn {
+    cursor: pointer;
+    background: var(--secondary-grey);
+    border: 2px solid var(--offWhite);
+    color: var(--offWhite);
+    padding: 0.5em;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: 0.2s ease-in;
+    animation-duration: 1.6s;
+    text-align: center;
+}
+.btn:hover {
+    background-color: var(--hover);
+    transform: 0.5s scale(.97);
+}
+
+#cardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.card {
+  width: 300px;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  color:whitesmoke;
+}
+
+.cardBody {
+  padding: 6px;
+  width: 100%;
+  border: 2px solid var(--light-grey);
+  border-radius: 0 0 10px 10px;
+  background-color: #1f1919ad;
+}
+
+.projectImageWrapper {
+  width: 315px;
+  height: 300px;
+}
+
+.projectImageWrapper img {
+  border-radius: 10px 10px 0 0;
+}
+
+.screenshot {
+  height: 100%;
+  width: 100%;
+}
+
+.cardTitle {
+  text-align: center;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.buttonWrapper .btn {
+  margin: 0.5rem;
+}
+
+.description {
+  margin-bottom: 15px;
+  color:whitesmoke;
+}
+
+.skillsList {
+  margin-top: 5px;
+  list-style: none;
+  color:whitesmoke;
+}
+
+.skillsList li{
+  border: 1px solid var(--background);
+  padding: 12px;
+  background-color: var(--light-grey);
+}
+
+
+
+/*Jquerries from kate*/
+@media screen and (max-width: 1140px) {
+    #cardGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .logo {
+      font-size: 1em;
+    }
+  
+    .Headerbar {
+      width: 60%;
+    }
+  }
+  
+  @media screen and (max-width: 925px) {
+    #pageContainer {
+      padding: 2em;
+    }
+  
+    #cardGrid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    body {
+      overflow-x: hidden;
+    }
+  
+    #Headerbar{
+      position: fixed;
+      visibility: hidden;
+      margin-inline: 0;
+      height: 55vh;
+      top: 5vh;
+      right:35%;
+      background-color: var(--main-grey);
+      padding-bottom: 1.5rem;
+      margin-top:10px;
+      display: flex;
+      flex-direction: column;
+      justify-content:right;
+      width: 50%;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-out;
+    }
+    #Headerbar.active{
+      visibility: visible;
+    }
+  
+    .Starter {
+      opacity: 1;
+      border-bottom: 2px solid var(--light-grey); 
+      width: 70%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .Starter a {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } 
+    .Starter:hover{
+      transition:linear 0.5s;
+  }
+    .burger {
+      display: block;
+      position:fixed;
+      top:15px;
+      right:2px;
+      cursor: pointer;
+    }
+    .burger.active{
+      background-color:var(--main-grey);
+    }
+    .pdfsource{
+      height:400px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    #landing {
+      height: 100vh;
+    }
+  
+    .landingButtons {
+      flex-flow: column;
+    }
+    #projectBtn {
+      margin: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    #title {
+      font-size: 2.5em;
+    }
+  
+    #subHeading {
+      font-size: 2em;
+    }
+  
+    .sectionHeading {
+      font-size: 2em;
+    }
+  
+    .sectionInfo {
+      font-size: 1em;
+    }
+  
+    .buttonWrapper {
+      flex-direction: column;
+    }
+  
+    .buttonWrapper .btn{
+      margin-bottom: 1rem;
+    }
+  
+    input,
+    textarea {
+      width: 80vw;
+    }
+  
+    .thanksPage h2 {
+      font-size: 2rem;
+    }
+  
+    .thanksPage p {
+      font-size: 1.5rem;
+    }
+  
+    .thanksPage .btn {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .card, .projectImageWrapper {
+      width: 275px;
+    }
+  
+    .contactIcon {
+      font-size: 1.4em;
+      height: 50px;
+      width: 50px;
+    }
+  
+    button {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media screen and (max-height: 700px) {
+    #landing {
+      height: 100vh;
+    }
+  }
+  
