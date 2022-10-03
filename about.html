@@ -23,8 +23,7 @@
     }.Image{
         display:flex;
         padding-left:38%;
-        width: 25%;
-        height: 400px;       
+        width: 25%;       
     }
     #Aboutme{
         display:flex;
@@ -67,4 +66,8 @@
             <p id ="Aboutme" class="Aboutme1">(Or clicking in any small Contact me button in other pages will do!!!)</p><br><br>
     </section>
 </body>
+<script>
+    const Image = document.querySelector('.Image')
+    Image.height = (Image.clientWidth)/2.2;
+</script>
 </html>
