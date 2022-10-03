@@ -404,7 +404,7 @@ a:focus{
   
   @media screen and (max-width: 400px) {
     .card, .projectImageWrapper {
-      width: 300px;
+      width: 340px;
     }
     .pdfsource{
       height:310px;
