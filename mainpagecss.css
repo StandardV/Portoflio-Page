@@ -404,8 +404,11 @@ a:focus{
   
   @media screen and (max-width: 400px) {
     .card, .projectImageWrapper {
-      width: 275px;
+      width: 280px;
     }
+    .pdfsource{
+      height:250px;
+     }
   
     .contactIcon {
       font-size: 1.4em;
