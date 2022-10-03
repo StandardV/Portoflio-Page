@@ -407,7 +407,7 @@ a:focus{
       width: 300px;
     }
     .pdfsource{
-      height:250px;
+      height:310px;
      }
   
     .contactIcon {
@@ -420,6 +420,11 @@ a:focus{
       font-size: 0.9em;
     }
   }
+@media screen and (max-width: 300px) {
+    .pdfsource{
+      height:240px;
+    }
+}
   
   @media screen and (max-height: 700px) {
     #landing {
